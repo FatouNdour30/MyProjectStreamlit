@@ -1995,7 +1995,7 @@ elif st.session_state.page == "exercices":
     # ==================================================
     
     try:
-        from fpdf import FPDF
+        from fpdf2 import FPDF
         FPDEF_AVAILABLE = True
     except ImportError:
         FPDEF_AVAILABLE = False
@@ -2119,7 +2119,7 @@ elif st.session_state.page == "exercices":
         """
         if not FPDEF_AVAILABLE: return None
         
-        pdf = FPDF()
+        pdf = FPDF2()
         pdf.add_page()
         
         # En-tête
