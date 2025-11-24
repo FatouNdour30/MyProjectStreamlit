@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import random
 import time
+
 import random
 import plotly.express as px
 import plotly.graph_objects as go
@@ -24,7 +25,7 @@ import plotly.graph_objects as go
 import time
 import random
 from datetime import datetime
-
+from fpdf2 import FPDF
 # =====================================================
 # 1. CONFIGURATION & CONSTANTES
 # =====================================================
