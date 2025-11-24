@@ -1,9 +1,14 @@
 # requirements.txt
 
-streamlit
-
 pandas
-numpy
-scikit-learn
 joblib
+streamlit==1.36.0
 plotly==5.22.0
+streamlit-ace==0.2.2
+pandas==2.2.2
+numpy==2.0.0
+scikit-learn==1.5.1
+matplotlib==3.9.0
+seaborn==0.13.2
+fpdf2==2.7.9
+pyarrow==16.1.0
