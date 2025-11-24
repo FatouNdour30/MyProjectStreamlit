@@ -1,0 +1,111 @@
+q_index,user_input,correct,concept,time,attempt,user_id,nom,parcours_type,date_session
+0,print(),True,Affichage,0.002039194107055664,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+1,print(' Bonjour le monde !'),True,Affichage,0.00182342529296875,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+2,#,True,Commentaires,0.000997304916381836,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+3,13,True,Opérateurs,0.0009372234344482422,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+4,reponse = 42,True,Variables,0.0016851425170898438,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+5,booléen,True,Types,0.0010554790496826172,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+6,dictionnaire,False,Structures,0.0009675025939941406,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+6,liste,True,Structures,0.0014569759368896484,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+7,"fruits = ['pomme', 'banane']",True,Listes,0.0017938613891601562,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+8,len,True,Fonctions,0.0017063617706298828,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+9,==,True,Comparaisons,0.0016510486602783203,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+20,def,True,Fonctions,0.0028204917907714844,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+21,"def saluer():
+    print(""Salut !"")
+",True,Fonctions,0.0011816024780273438,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+22,"def addition(a, b):     return a + b",False,Fonctions,0.002157926559448242,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+22,"def addition(a, b):     return a + b",False,Fonctions,0.0020875930786132812,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+22,"def addition(a, b):     return a + b",False,Fonctions,0.0012404918670654297,3,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+22,"def addition(a, b):     return a + b",False,Fonctions,0.0018372535705566406,4,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+22,[passé],False,Fonctions,0.0017054080963134766,99,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+23,dictionnaire,True,Dictionnaires,0.0012507438659667969,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+24,"user = {'nom': 'Fatou', 'age': 20}",True,Dictionnaires,0.0019936561584472656,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+25,user['nom'],True,Dictionnaires,0.0022470951080322266,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+26,1,False,Dictionnaires,0.0019335746765136719,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+26,2,True,Dictionnaires,0.001627206802368164,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+27,"user['ville'] = 'Dakar'
+",True,Dictionnaires,0.0016026496887207031,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+28,def f():     x = 10  # variable locale     print(x)  f() print(x)  ,False,Portée,0.0005965232849121094,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+28,def f():     x = 10  # variable locale     print(x)  f() print(x)  ,False,Portée,0.0012748241424560547,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+28,def f():     x = 10  # variable locale     print(x)  f() print(x)  ,False,Portée,0.0014140605926513672,3,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+28,def f():     x = 10  # variable locale     print(x)  f() print(x)  ,False,Portée,0.0008666515350341797,4,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+28,def f():     x = 10  # variable locale     print(x)  f() print(x)  ,False,Portée,0.0017731189727783203,5,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+28,def f():     x = 10  # variable locale     print(x)  f() print(x)  ,False,Portée,0.002068758010864258,6,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+28,[passé],False,Portée,0.0023849010467529297,99,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+29,None,True,Fonctions,0.003992319107055664,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+40,class,True,POO,0.0014178752899169922,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+41,"class Personne:
+    pass
+",True,POO,0.0017824172973632812,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age",False,POO,0.0019683837890625,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age",False,POO,0.0017271041870117188,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age",False,POO,0.0017426013946533203,3,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+42,[passé],False,POO,0.0015611648559570312,99,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+43,la classe,False,POO,0.0018858909606933594,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+43,le module,False,POO,0.001718282699584961,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+43,l’instance,True,POO,0.0016701221466064453,3,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+44,"class Personne:
+    def __init__(self, nom, age):
+        self.nom = nom
+        self.age = age
+
+    def saluer(self):
+        print(""Salut"")
+",True,POO,0.0013859272003173828,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0010268688201904297,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0018415451049804688,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0010333061218261719,3,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0012118816375732422,4,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+45,[passé],False,Algorithmes,0.0025959014892578125,99,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+46,dictionnaire,True,Algorithmes,0.0006968975067138672,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.001115560531616211,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0009541511535644531,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0007121562957763672,3,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0007097721099853516,4,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0018916130065917969,5,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0012531280517578125,6,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0017747879028320312,7,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+47,[passé],False,Récursivité,0.0036690235137939453,99,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.0013244152069091797,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.0038912296295166016,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.0006227493286132812,3,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.0006425380706787109,4,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+48,[passé],False,Algorithmes,0.0012149810791015625,99,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+49,classe abstraite,False,POO,0.0017211437225341797,1,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758
+49,pas de self,True,POO,0.0016922950744628906,2,b9bdd6be,Fatou,adaptatif,2025-11-19T20:09:07.372758

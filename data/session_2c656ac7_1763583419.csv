@@ -1,0 +1,104 @@
+q_index,user_input,correct,concept,time,attempt,user_id,nom,parcours_type,date_session
+0,print(),True,Affichage,0.001760244369506836,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+1,print('Bonjour le monde !'),True,Affichage,0.0008842945098876953,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+2,#,True,Commentaires,0.0004894733428955078,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+3,13,True,Opérateurs,0.0012657642364501953,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+4,reponse = 42,True,Variables,0.0013082027435302734,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+5,booléen,True,Types,0.0013620853424072266,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+6,liste,True,Structures,0.001081228256225586,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+7,"fruits = ['pomme', 'banane']",True,Listes,0.0021238327026367188,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+8,len,True,Fonctions,0.001950979232788086,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+9,==,True,Comparaisons,0.0015764236450195312,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+20,def,True,Fonctions,0.0018754005432128906,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+21,"def saluer():
+    print(""Salut !"")
+",True,Fonctions,0.0006682872772216797,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+22,"def addition(a, b):     return a + b  resultat = addition(3, 5) print(resultat)  # affiche 8",False,Fonctions,0.0007760524749755859,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+22,"def addition(a, b):     return a + b  resultat = addition(3, 5) print(resultat)  # affiche 8",False,Fonctions,0.0017066001892089844,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+22,"def addition(a, b):     return a + b  resultat = addition(3, 5) print(resultat)  # affiche 8",False,Fonctions,0.0014452934265136719,3,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+22,[passé],False,Fonctions,0.001773834228515625,99,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+23,dictionnaire,True,Dictionnaires,0.0014300346374511719,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+24,"user = {'nom': 'Fatou', 'age': 20}",True,Dictionnaires,0.0008063316345214844,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+25,user['nom'],True,Dictionnaires,0.001285552978515625,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+26,2,True,Dictionnaires,0.0012485980987548828,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+27,"user['ville'] = 'Dakar'
+",True,Dictionnaires,0.0008070468902587891,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+28,def f():     x = 10  # variable locale     print(x)  f() print(x)  # ❌ Erreur : x n’existe pas ici,False,Portée,0.0019555091857910156,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+28,def f():     x = 10  # variable locale     ,False,Portée,0.0016183853149414062,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+28,def f():     x = 10  # variable locale     ,False,Portée,0.0037233829498291016,3,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+28,def f():     x = 10  # variable locale     ,False,Portée,0.0008099079132080078,4,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+28,def f():     x = 10  # variable locale     ,False,Portée,0.0015587806701660156,5,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+28,def f():     x = 10  # variable locale     ,False,Portée,0.001871347427368164,6,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+28,[passé],False,Portée,0.004575967788696289,99,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+29,None,True,Fonctions,0.003119230270385742,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+40,class,True,POO,0.0015683174133300781,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+41,"class Personne:
+    pass
+",True,POO,0.0013766288757324219,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age  # Création d'un objet p = Personne(""Adja"", 22) print(p.nom)  # affiche: Adja print(p.age)  # affiche: 22",False,POO,0.0011241436004638672,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age  # Création d'un objet p = Personne(""Adja"", 22) print(p.nom)  # affiche: Adja print(p.age)  # affiche: 22",False,POO,0.000728607177734375,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age  # Création d'un objet p = Personne(""Adja"", 22) print(p.nom)  # affiche: Adja print(p.age)  # affiche: 22",False,POO,0.001184701919555664,3,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age  # Création d'un objet p = Personne(""Adja"", 22) print(p.nom)  # affiche: Adja print(p.age)  # affiche: 22",False,POO,0.0007660388946533203,4,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+42,"class Personne:     def __init__(self, nom, age):         self.nom = nom         self.age = age  # Création d'un objet p = Personne(""Adja"", 22) print(p.nom)  # affiche: Adja print(p.age)  # affiche: 22",False,POO,0.0030448436737060547,5,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+42,[passé],False,POO,0.002588510513305664,99,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+43,la classe,False,POO,0.0012750625610351562,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+43,l’instance,True,POO,0.0019030570983886719,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+44,"class Personne:
+    def __init__(self, nom, age):
+        self.nom = nom
+        self.age = age
+
+    def saluer(self):
+        print(""Salut"")
+",True,POO,0.0008301734924316406,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0008001327514648438,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0018460750579833984,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0009214878082275391,3,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0014798641204833984,4,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+45,"for i in range(n):     for j in range(m):         print(i, j)",False,Algorithmes,0.0010917186737060547,5,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+45,[passé],False,Algorithmes,0.007010698318481445,99,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+46,dictionnaire,True,Algorithmes,0.0011811256408691406,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0011415481567382812,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0014255046844482422,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0018236637115478516,3,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0016117095947265625,4,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.001668691635131836,5,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+47,"def factorielle(n):
+    if n == 0 or n == 1:  # cas de base
+        return 1
+    else:
+        return n * factorielle(n - 1)  # appel récursif
+",False,Récursivité,0.0012140274047851562,6,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+47,[passé],False,Récursivité,0.0033402442932128906,99,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.0009250640869140625,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.0016281604766845703,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.0012354850769042969,3,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+48,"nombres = [5, 2, 9, 1] tri = sorted(nombres) print(tri)  # [1, 2, 5, 9]",False,Algorithmes,0.002164602279663086,4,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+48,[passé],False,Algorithmes,0.0021927356719970703,99,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+49,classe abstraite,False,POO,0.0017905235290527344,1,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
+49,pas de self,True,POO,0.0010638236999511719,2,2c656ac7,Fatou,adaptatif,2025-11-19T21:16:59.586870
