@@ -1,9 +1,8 @@
-# requirements.txt
 streamlit==1.36.0
 plotly==5.22.0
 streamlit-ace==0.1.1
-pandas==2.2.2
-numpy==2.0.0
+pandas==2.1.4     # ← CORRIGÉ (wheel dispo, pas de pyarrow implicite)
+numpy==1.26.4
 scikit-learn==1.5.1
 matplotlib==3.9.0
 seaborn==0.13.2
