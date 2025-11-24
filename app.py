@@ -9,23 +9,22 @@ import pandas as pd
 import numpy as np
 import random
 import time
-
-import random
+import plotly.graph_objects as go
+import os
+from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 import warnings
 warnings.filterwarnings('ignore')
+import sys
+from io import StringIO
+from datetime import datetime, timedelta
 from streamlit_ace import st_ace  # ← AJOUTEZ CETTE LIGNE
+from fpdf2 import FPDF
 # =====================================================
 # CONFIGURATION
 # =====================================================
 
-import streamlit as st
-import plotly.graph_objects as go
-import time
-import random
-from datetime import datetime
-from fpdf import FPDF
 # =====================================================
 # 1. CONFIGURATION & CONSTANTES
 # =====================================================
@@ -134,8 +133,7 @@ st.markdown(f"""
 
 </style>
 """, unsafe_allow_html=True)
-import streamlit as st
-import time
+
 
 # =====================================================
 # CONFIGURATION DU STYLE (INSPIRÉ DE L'IMAGE FOURNIE)
@@ -325,14 +323,7 @@ if st.session_state.user_profile is None:
 # Récupération données
 user = st.session_state.user_profile
 nom = user["nom"]
-import streamlit as st
-import plotly.graph_objects as go
-import time
-import random
-import pandas as pd
-import numpy as np
-import os
-from datetime import datetime
+
 
 # =====================================================
 # 1. CONFIGURATION & CONSTANTES
@@ -594,11 +585,6 @@ with st.sidebar:
 # 7. ROUTAGE DES PAGES (CONTENU)
 # =====================================================
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import plotly.graph_objects as go
-from datetime import datetime
 
 # --- CONFIGURATION INITIALE ---
 if "page" not in st.session_state:
@@ -1153,8 +1139,7 @@ elif st.session_state.page == "examen":
 # =====================================================
 # 3. PAGE DE CONNEXION : "THE QUANTUM CORE EDITION"
 # =====================================================
-import time
-import streamlit as st
+
 
 # Configuration de la page pour enlever les marges par défaut
 st.set_page_config(page_title="SamaLearn Secure", layout="centered")
@@ -1662,17 +1647,7 @@ if st.session_state.page == "accueil":
         st.session_state.page = "cours"
         st.rerun()
 elif st.session_state.page == "cours":
-    import streamlit as st
-    import plotly.graph_objects as go
-    import plotly.express as px
-    import numpy as np
-    import pandas as pd
-    import random
-    import sys
-    import time
-    from io import StringIO
-    from datetime import datetime, timedelta
-
+   
     # ==================================================
     # 1. CONFIGURATION & DONNÉES INTELLIGENTES
     # ==================================================
@@ -1981,21 +1956,14 @@ elif st.session_state.page == "cours":
             idx += 1
 
 elif st.session_state.page == "exercices":
-    import streamlit as st
-    import time
-    import pandas as pd
-    import numpy as np
-    import plotly.graph_objects as go
-    import plotly.express as px
-    from datetime import datetime
-    import random
+   
     
     # ==================================================
     # 1. CONFIGURATION & STYLE (UI PREMIUM)
     # ==================================================
     
     try:
-        from fpdf import FPDF
+        from fpdf2 import FPDF
         FPDEF_AVAILABLE = True
     except ImportError:
         FPDEF_AVAILABLE = False
@@ -2355,11 +2323,7 @@ elif st.session_state.page == "exercices":
 # =====================================================
 elif st.session_state.page == "enseignant":
     # --- IMPORTS ---
-    import plotly.express as px
-    import plotly.graph_objects as go
-    import pandas as pd
-    import numpy as np
-    from datetime import datetime
+  
 
     # --- STYLE CSS "SINGULARITY NEON" ---
     st.markdown(f"""
