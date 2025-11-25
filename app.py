@@ -11,16 +11,14 @@ import random
 import time
 import plotly.graph_objects as go
 import os
-from datetime import datetime
 import plotly.express as px
-import plotly.graph_objects as go
 import warnings
 warnings.filterwarnings('ignore')
 import sys
 from io import StringIO
 from datetime import datetime, timedelta
 from streamlit_ace import st_ace  # ← AJOUTEZ CETTE LIGNE
-from fpdf2 import FPDF
+from fpdf import FPDF   # <--- C'est la syntaxe standard pour fpdf2
 # =====================================================
 # CONFIGURATION
 # =====================================================
