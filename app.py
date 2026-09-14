@@ -5,6 +5,7 @@ Intelligence Adaptative, Émotionnelle & Longitudinale
 Made in Africa  • L3 Data Science • Ndeye Fatou NDOUR (2025)
 """
 import streamlit as st
+st.set_page_config(page_title="SamaLearn Ultra", page_icon="💠", layout="wide")
 import pandas as pd
 import numpy as np
 import random
@@ -667,10 +668,9 @@ def show_quiz_page():
             if st.button("Afficher le Rapport Final 🏆", key="show_dash_btn", use_container_width=True):
                 st.rerun()
 
-    st.button("Annuler et Retourner au Menu", key="cancel_quiz_btn", on_click=reset_session_for_menu, use_container_width=True)   
+    st.button("Annuler et Retourner au Menu", key="cancel_quiz_btn", on_click=reset_session_for_menu, use_container_width=True)
 # 1. CONFIGURATION & CONSTANTES
 # =====================================================
-st.set_page_config(page_title="SamaLearn Ultra", page_icon="💠", layout="wide")
 
 import logging
 from statistics import mean
@@ -1092,8 +1092,6 @@ nom = user.id # Maintenant sécurisé car user_profile est un objet UserProfile
 # =====================================================
 # 1. CONFIGURATION & CONSTANTES
 # =====================================================
-st.set_page_config(page_title="SamaLearn Ultra", page_icon="💠", layout="wide")
-
 # Couleurs du thème
 THEME = {
     "primary": "#00F2FF",    # Cyan Néon
@@ -4496,8 +4494,6 @@ import plotly.express as px
 # =====================================================
 # 1. CONFIGURATION STREAMLIT & STYLE
 # =====================================================
-st.set_page_config(page_title="SamaLearn Singularity", layout="wide", page_icon="🧬")
-
 # Initialisation de la session
 if 'page' not in st.session_state:
     st.session_state.page = "enseignant"
