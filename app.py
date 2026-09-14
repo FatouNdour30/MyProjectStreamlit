@@ -1064,6 +1064,8 @@ if st.session_state.user_profile is None:
             animation: float 6s ease-in-out infinite;
             border-radius: 20px;
             box-shadow: 0 0 50px rgba(89, 86, 233, 0.2);
+            height: 550px;
+            object-fit: cover;
         }
         @keyframes float {
             0% { transform: translateY(0px); }
