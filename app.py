@@ -10,6 +10,12 @@ import numpy as np
 import random
 import ast # C'est le nouvel import indispensable pour le parsingort time
 import base64
+
+@st.cache_data
+def get_base64_image(image_path):
+    """Encode une image locale en base64 pour l'intégrer directement dans du HTML."""
+    with open(image_path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
 import plotly.graph_objects as go
 import os
 import plotly.express as px
@@ -1095,12 +1101,6 @@ THEME = {
     "success": "#00FF94",
     "glass": "rgba(255, 255, 255, 0.05)"
 }
-
-@st.cache_data
-def get_base64_image(image_path):
-    """Encode une image locale en base64 pour l'intégrer directement dans du HTML."""
-    with open(image_path, "rb") as f:
-        return base64.b64encode(f.read()).decode()
 
 # =====================================================
 # 2. FONCTIONS UTILITAIRES (DATA SCIENCE)
